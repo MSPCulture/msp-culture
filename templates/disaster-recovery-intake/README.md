@@ -4,7 +4,7 @@ A self-guided intake workbook that collects everything an organization needs bef
 
 A DR plan is only as good as the information behind it. This workbook gets the business requirements, technical inventory, backup reality, people, and third parties into one place, and it flags the gaps most likely to turn an outage into a disaster while the client is still filling it in.
 
-**Download:** [Disaster_Recovery_Intake_Workbook_v1.0.xlsx](Disaster_Recovery_Intake_Workbook_v1.0.xlsx) (or grab it from the [latest release](https://github.com/MSPCulture/msp-culture/releases/latest))
+**Download:** [Disaster_Recovery_Intake_Workbook_v1.0.xlsx](Disaster_Recovery_Intake_Workbook_v1.0.xlsx) (or grab it from the [v1.0 release](https://github.com/MSPCulture/msp-culture/releases/tag/disaster-recovery-intake-v1.0))
 
 > **Contains sensitive information once completed.** A filled-in copy holds contacts, IP addresses, account numbers, and the location of privileged credentials. Store and share it the way you would the DR plan itself. The workbook tells users never to record passwords or secrets in it.
 

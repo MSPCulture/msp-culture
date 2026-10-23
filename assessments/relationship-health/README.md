@@ -4,7 +4,7 @@ A quarterly, evidence-based read on the health of each client relationship, buil
 
 Technical assessments measure a client's environment. This one measures the relationship: governance, service experience, feedback, commercial health, strategic alignment, and known risk triggers. It tells you which clients are drifting before they send the cancellation email.
 
-**Download:** [Relationship_Health_Assessment_v1.0.xlsx](Relationship_Health_Assessment_v1.0.xlsx) (or grab it from the [latest release](https://github.com/MSPCulture/msp-culture/releases/latest))
+**Download:** [Relationship_Health_Assessment_v1.0.xlsx](Relationship_Health_Assessment_v1.0.xlsx) (or grab it from the [v1.0 release](https://github.com/MSPCulture/msp-culture/releases/tag/relationship-health-v1.0))
 
 > **Internal use only.** This workbook rates the client's behavior and your relationship with them. Use it to prepare for the QBR. Do not share it with the client.
 
