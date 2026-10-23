@@ -4,8 +4,8 @@ Neon-on-brick desktop wallpapers. Because the cult in culture deserves a backdro
 
 | File | Resolution | Best for |
 |---|---|---|
-| `MSP_Culture_Wallpaper_Widescreen.jpg` | TBD | Single monitor, 16:9 |
-| `MSP_Culture_Wallpaper_Triple_6880x1440.jpg` | 6880 × 1440 | Triple-monitor span (e.g., three 2560 × 1440 panels with bezel allowance) |
+| [`MSP_Culture_Wallpaper_Widescreen.jpg`](MSP_Culture_Wallpaper_Widescreen.jpg) | 2576 × 1438 | Single monitor, 16:9 |
+| [`MSP_Culture_Wallpaper_Triple_Monitor.jpg`](MSP_Culture_Wallpaper_Triple_Monitor.jpg) | 2576 × 526 | Triple-monitor span (scales to 6880 × 1440, e.g. three 1440p panels) |
 
 ## Setting a spanned wallpaper
 
