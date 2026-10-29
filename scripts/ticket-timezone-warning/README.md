@@ -12,8 +12,9 @@ A userscript for ConnectWise PSA that shows a badge on a ticket when the contact
 
 ## Install
 1. Install [Tampermonkey](https://www.tampermonkey.net/) or Violentmonkey.
-2. Click the install link above. The extension will show the script and an **Install** button.
-3. Open a ticket in ConnectWise PSA. If the contact is outside business hours, the badge appears in the top-right corner.
+2. **Chrome and Edge only:** open `chrome://extensions` (or `edge://extensions`), click **Details** on Tampermonkey, and turn on **Allow User Scripts**. Without it the script installs and shows as enabled but never runs. On older browser versions, turn on **Developer mode** at the top right of that page instead.
+3. Click the install link above. The extension will show the script and an **Install** button.
+4. Open a ticket in ConnectWise PSA. If the contact is outside business hours, the badge appears in the top-right corner.
 
 **On-prem ConnectWise:** the script only runs on `*.myconnectwise.net` and `*.connectwisedev.com`. For your own server, open the script in Tampermonkey, go to its **Settings** tab, and add your hostname (for example `https://cw.example.com/*`) under **User matches**. That setting survives updates; editing the `@match` line in the code does not.
 
@@ -35,6 +36,7 @@ The script checks this repo for new versions. If you change its settings in the 
 ## Known limits
 - It uses the ticket's **site** address, not the contact's personal location, so remote workers may get the wrong timezone.
 - Zip3 rules are approximate near timezone lines. The script lists the known-mixed areas; pin those clients in `OVERRIDES`.
+- If the Tampermonkey menu on a ticket says it has no access to the page, or the browser's extension menu says "No access needed," the browser isn't letting it run. Check the **Allow User Scripts** toggle from the install steps first. On a managed browser, a policy such as `runtime_blocked_hosts` can also block extensions from the PSA; that's your security team's call, and they can allow `*://*.myconnectwise.net` for Tampermonkey only.
 - The DOM label matching hasn't been tested on every CW screen. Set `debug: true` and check the console if the badge doesn't appear, and [open an issue](https://github.com/MSPCulture/msp-culture/issues) with the screen it failed on.
 
 ## Changelog
