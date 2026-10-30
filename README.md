@@ -12,6 +12,7 @@ MSP Culture — public tools, templates, and resources for MSPs
 | Template | What it's for | Latest |
 |---|---|---|
 | [Disaster Recovery Intake Workbook](templates/disaster-recovery-intake/) | Self-guided intake for client IT teams: business impact, critical apps, data owners, infrastructure, backups, break-glass access, contacts, vendors, and automatic gap checks before writing a DR plan | v1.0 |
+| [Return on Attendance](templates/return-on-attendance/) | Printable conference workbook: team huddle and vendor plan before you go, love/need/want agenda, at-the-show notes, a 90-day plan on the flight home, and an ROI scorecard to decide on next year | v1.0 |
 
 ## Scripts
 
