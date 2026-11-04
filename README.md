@@ -5,7 +5,7 @@ MSP Culture — public tools, templates, and resources for MSPs
 
 | Assessment | What it measures | Latest |
 |---|---|---|
-| [Client Relationship Health](assessments/relationship-health/) | Governance, service experience, feedback, commercial health, strategic alignment, and churn risk triggers for each client relationship | v1.0 |
+| [Client Relationship Health](https://toolbox.mspculture.com/l/relationship-health) | Governance, service experience, feedback, commercial health, strategic alignment, and churn risk triggers for each client relationship | v1.0.1 |
 
 ## Templates
 
