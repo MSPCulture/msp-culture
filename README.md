@@ -20,6 +20,12 @@ MSP Culture — public tools, templates, and resources for MSPs
 |---|---|---|
 | [Ticket Timezone Warning](scripts/ticket-timezone-warning/) | ConnectWise PSA userscript that warns techs when a ticket contact is outside business hours or on a holiday, in the contact's own timezone. No API keys, nothing leaves the browser | v1.3.1 |
 
+## Skills
+
+| Skill | What it does | Latest |
+|---|---|---|
+| [Helpdesk Resume Builder](skills/helpdesk-resume-builder/) | Claude skill for helpdesk and Tier 1-2 job seekers: builds an experience database from LinkedIn and an interview, tailors a resume to each job posting, and runs an ATS parse test and grammar check | v1.0 |
+
 ## Fun
 
 | Item | What it is |
