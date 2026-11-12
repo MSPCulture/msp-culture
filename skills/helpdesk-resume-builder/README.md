@@ -1,6 +1,10 @@
 # Helpdesk Resume Builder
 
-A Claude skill for people going after helpdesk, service desk, and Tier 1-2 IT support roles. It builds a master record of everything you've done, tailors a resume to one specific job posting at a time, and then checks the result the way an ATS and a hiring manager would.
+A Claude skill for technicians going after MSP and IT roles from Tier 1 helpdesk through Tier 3 escalation: helpdesk techs, helpdesk admins, sysadmins, and systems or network engineers. It builds a master record of everything you've done, tailors a resume to one specific job posting at a time, and then checks the result the way an ATS and a hiring manager would.
+
+It's built around MSP titles because that's where most of these jobs are, and because a "Systems Administrator" at one MSP is a "Helpdesk Tech II" at the next. It figures out the real tier from the work, not the title, and writes to the tier of the job you're applying for.
+
+It isn't built for lead, manager, architect, vCIO, or director roles. Those resumes sell leadership and strategy, and that's a different exercise.
 
 Most helpdesk resumes I see aren't bad because the person lacks experience. They're bad because the experience never makes it onto the page. "Developed PowerShell scripts to improve efficiency" could mean anything. The skill's job is to drag the real version out of you, then put it where a recruiter will actually see it.
 
