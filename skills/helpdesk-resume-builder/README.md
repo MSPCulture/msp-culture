@@ -1,6 +1,10 @@
 # Helpdesk Resume Builder
 
-A Claude skill for people going after helpdesk, service desk, and Tier 1-2 IT support roles. It builds a master record of everything you've done, tailors a resume to one specific job posting at a time, and then checks the result the way an ATS and a hiring manager would.
+A Claude skill for technicians going after MSP and IT roles from Tier 1 helpdesk through Tier 3 escalation: helpdesk techs, helpdesk admins, sysadmins, and systems or network engineers. It builds a master record of everything you've done, tailors a resume to one specific job posting at a time, and then checks the result the way an ATS and a hiring manager would.
+
+It's built around MSP titles because that's where most of these jobs are, and because a "Systems Administrator" at one MSP is a "Helpdesk Tech II" at the next. It figures out the real tier from the work, not the title, and writes to the tier of the job you're applying for.
+
+It isn't built for lead, manager, architect, vCIO, or director roles. Those resumes sell leadership and strategy, and that's a different exercise.
 
 Most helpdesk resumes I see aren't bad because the person lacks experience. They're bad because the experience never makes it onto the page. "Developed PowerShell scripts to improve efficiency" could mean anything. The skill's job is to drag the real version out of you, then put it where a recruiter will actually see it.
 
@@ -10,6 +14,7 @@ Most helpdesk resumes I see aren't bad because the person lacks experience. They
 2. **Reads the job description.** Paste it, upload it, or give it a URL. It sorts must-haves from nice-to-haves, figures out the real level behind the title, flags red flags, and tells you honestly how well you match.
 3. **Asks about the gaps, then writes the resume.** If the posting wants Intune and your database doesn't mention it, you'll get asked. Then it builds a single-column .docx tailored to that role.
 4. **Runs an ATS and grammar check.** It extracts the text the way an ATS would and reads what comes out, so a header in a text box or a three-column skills grid gets caught instead of guessed at. It also checks tense, duplicate bullets, honest cert status, years of experience that don't match your dates, and misspelled vendor names (it's ConnectWise, not Connect Wise).
+5. **Preps you for the interview, if you want it.** Every bullet on your resume is a question you'll get asked. It walks you through the story behind each one, has you explain why the fundamentals work instead of what the acronyms stand for, and helps you build questions to ask them.
 
 ## What it won't do
 
@@ -38,6 +43,14 @@ Give the first session some time. The database interview is the part that makes 
 - It can't log into LinkedIn or pull your profile directly. You'll need to export it.
 - Some job boards block automated fetching. If a URL doesn't load, paste the posting text instead.
 - The vendor spelling list is weighted toward the MSP stack. Open an issue if it's missing something you see on resumes all the time.
+
+## Further reading
+
+A lot of what this skill checks for comes from a series I wrote back in 2017 about getting hired at an MSP. The tools have changed names since then. The advice mostly hasn't.
+
+- [Working at an MSP - Part 1 - Resumes](https://www.linkedin.com/pulse/getting-job-part-1-resumes-jordan-silva/)
+- [Working at an MSP - Part 2 - The Interview](https://www.linkedin.com/pulse/working-msp-part-2-interview-jordan-silva/)
+- [Working at an MSP - Part 3 - You Got the Job. Now What?](https://www.linkedin.com/pulse/working-msp-part-3-you-got-job-now-what-jordan-silva/)
 
 ## Changelog
 

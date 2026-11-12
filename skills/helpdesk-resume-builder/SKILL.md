@@ -1,11 +1,23 @@
 ---
 name: helpdesk-resume-builder
-description: Build a reusable experience database and tailored, ATS-safe resumes for helpdesk, service desk, and Tier 1-2 IT support roles, one job description at a time.
+description: Build a reusable experience database and tailored, ATS-safe resumes for MSP and IT technician roles from helpdesk through Tier 3 (helpdesk admin, sysadmin, systems or network engineer), one job description at a time.
 ---
 
 # Helpdesk Resume Builder
 
-Helps someone targeting helpdesk / service desk / Tier 1-2 / junior sysadmin roles go from "messy resume" to a resume tailored to a specific job posting, then checks it the way an ATS and a hiring manager would.
+Helps someone targeting technician roles from Tier 1 helpdesk through Tier 3 escalation go from "messy resume" to a resume tailored to a specific job posting, then checks it the way an ATS and a hiring manager would. It's written with MSPs in mind, because that's where most of these titles live, but it works for internal IT support roles too.
+
+## Scope: Tier 1 through Tier 3
+
+Titles are unreliable, so place the person and the posting by the work, not the title. Rough MSP mapping:
+
+| Tier | Common titles | What the work looks like |
+|---|---|---|
+| Tier 1 | Helpdesk Technician, Service Desk Analyst, Support Specialist | Phones and queue, password resets, M365 user issues, triage and escalation, following runbooks |
+| Tier 2 | Helpdesk Admin, Desktop/Field Engineer, Support Engineer, Systems Administrator | Owns harder tickets, server and network break/fix, onboarding and offboarding, backup restores, firewall and switch changes, writing the runbooks Tier 1 follows |
+| Tier 3 | Systems Engineer, Network Engineer, Escalation Engineer, Project Engineer | Escalation point for Tier 2, migrations and client onboarding projects, infrastructure design within a client environment, scripting and automation, root cause analysis, mentoring |
+
+**Out of scope:** architect, team lead, service manager, vCIO, director, and anything where the resume needs to sell leadership, budget, or strategy. Those resumes are built differently. If the person is targeting one of those roles, say so plainly and don't stretch this skill to cover it. Senior individual contributors who are mostly still hands-on (a senior network engineer, say) can use it with Tier 3 rules.
 
 Four stages, in order. Don't skip ahead: a tailored resume built on a thin experience database is just a reworded thin resume.
 
@@ -18,7 +30,10 @@ Four stages, in order. Don't skip ahead: a tailored resume built on a thin exper
 
 - Never invent experience, metrics, tools, titles, or certifications. If a number would help and the person doesn't have one, ask for a reasonable estimate and label it honestly ("~40 tickets/day"), or leave it out.
 - Never inflate a job title. If their actual title was "Systems Administrator" but the work was helpdesk, use the real title and let the bullets show the work. Don't promote anyone.
+- The verb has to match their actual role in the work. "Completed a 500-mailbox migration" and "coordinated a 500-mailbox migration with a vendor" are different claims, and the interviewer will find out which one is true. When it's unclear, ask: "Did you do this, lead it, help with it, or coordinate it?"
 - Expired certifications are listed honestly, never as active.
+- Under-promise on paper. A resume that looks reasonable, followed by an interview full of extra stories, beats a resume full of fluff that the interview can't back up. Don't cram in everything the database holds.
+- Write in the person's own voice. A resume pushed into a stiff "professional" tone, or one that reads as AI-generated, comes off worse than a plain one. Avoid buzzword stacks ("results-driven, detail-oriented self-starter") and keep their natural phrasing where it's clear.
 - Ask questions in small batches (3-5 at a time), grouped by job. Long questionnaires get abandoned.
 - Be direct about weak spots. The person is better served by hearing "this bullet says nothing" now than by a recruiter skipping them later.
 
@@ -42,12 +57,19 @@ For each role, get:
 - Employer, location, title(s), start/end month and year, and whether the end was a layoff/contract end (context only, never goes on the resume)
 - Environment type: MSP (how many clients, roughly?) vs internal IT (how many users/sites?) vs vendor support (whose product?)
 - Ticket volume, queue type, SLA or CSAT numbers if they know them
-- Tools actually used hands-on vs just exposed to. Be specific: PSA, RMM, remote access, documentation, backup, firewall, EDR, email security, identity
+- Tools actually used hands-on vs just exposed to. Be specific: PSA, RMM, remote access, documentation, backup, firewall, EDR, email security, identity. The test for listing a tool: would they be comfortable being asked about it in an interview? Logging into a Cisco ASA once in four years is not "experience with Cisco firewalls."
 - Scripts or automation: what did it do, how often did it run, what did it replace, roughly how much time did it save
 - Escalations handled, projects (migrations, onboarding new clients, device rollouts), documentation or KB articles written, people trained or mentored
 - Anything they're proud of that "wasn't really part of the job"
 
+Weight the questions by tier:
+- **Tier 1:** volume and resolution. Tickets per day, first-contact resolution, CSAT, how many clients or users they supported, what they escalated and when.
+- **Tier 2:** ownership. What kinds of tickets were theirs alone, what they fixed that Tier 1 couldn't, changes they made to servers, firewalls, and tenants, runbooks they wrote, onboardings and offboardings they ran.
+- **Tier 3:** scope and outcomes. How many servers, tenants, sites, or clients; migrations and projects start to finish; uptime, RTO, or cost results; automation that removed recurring work; root causes found; who they mentored; on-call and escalation load. For each project, pin down their role: designed, implemented, maintained, or assisted are all different claims.
+
 For career changers (teachers, retail, military, call center), dig for transferable work: explaining technical things to non-technical people, de-escalation, volume handling, informal tech support they did. A teacher who was the building's unofficial IT person has helpdesk experience. Say so.
+
+For people moving from internal IT to an MSP, the resume needs to show breadth: how many different environments they've touched, documentation habits, and comfort working from tickets. Someone who was the "everything" person at a small company usually has this and undersells it. Someone who was the Active Directory person or the Exchange person at an enterprise needs to show what else they can do.
 
 For entry-level candidates with little or no IT work history: homelabs, certs in progress, volunteer IT, school projects, and self-built scripts are all legitimate. Capture them in detail.
 
@@ -59,7 +81,7 @@ Save as `experience-database.md`, one section per role, with every possible bull
 Ask for the job posting: pasted text, an uploaded file, or a URL (fetch it if possible; if the site blocks it, ask them to paste it).
 
 Break it down and show the person a short summary:
-- Actual level (job titles lie: "Systems Administrator" postings are often Tier 2 helpdesk, and "Helpdesk Technician" sometimes means sysadmin)
+- Actual tier, using the table above (job titles lie: "Systems Administrator" postings are often Tier 2 helpdesk, "Helpdesk Technician" sometimes means sysadmin, and "Systems Engineer" at an MSP is often a Tier 3 project role). If the posting is really a lead, manager, or architect role, say it's outside what this skill is built for
 - MSP vs internal IT vs vendor support
 - Must-haves vs nice-to-haves
 - Named tools, platforms, and certifications (exact spelling as the posting uses them)
@@ -83,10 +105,12 @@ Add anything new to the database, not just the resume.
 - **Summary:** 2-3 lines. Correct total years of IT experience (add them up from the dates; people undercount constantly). Lead with the thing this employer most needs.
 - **Experience:** reverse chronological. 4-6 bullets for the most recent/relevant role, 2-4 for older ones. One idea per bullet, no repeats across bullets. Lead with a strong past-tense verb (present tense only for the current job). Prefer outcome over duty: "Wrote PowerShell onboarding script that cut new-user setup from ~45 to ~10 minutes" beats "Developed PowerShell scripts to improve efficiency."
 - **Unclear titles get translated:** if a title means nothing outside the company (internal tier names, "Stage 2" style titles), keep the real title and make the first bullet explain the scope.
-- **Tools:** list only what they've genuinely used, spelled correctly, and prioritize what the posting names. A short comma-separated line or two beats a multi-column grid.
-- **Certifications:** active certs first with month/year. Expired certs either listed as "CompTIA Security+ (earned 2022)" or left off. Never with an active-looking date range. Awareness-level badges (e.g. Fortinet NSE 1-2, free intro courses) go last or get dropped once the person has real certs.
+- **Tools:** list only what they've genuinely used, spelled correctly, and prioritize what the posting names. Match the posting's level of detail: if it asks for "experience with mainstream Microsoft products," don't list every Microsoft product they've ever touched. Skip proficiency ratings; nobody writes "bad at routers." A short comma-separated line or two beats a multi-column grid.
+- **Bullets by tier:** Tier 1 bullets lead with volume, resolution, and communication. Tier 2 bullets lead with what they owned and fixed. Tier 3 bullets lead with scope and outcome (what changed, at what scale, with what result). Write to the tier of the posting, not the tier of their last title.
+- **Projects:** include one or two they're proud of, with what they actually did. Hiring managers remember these, and they give the interview something to dig into. For Tier 3, a short "Selected projects" section (2-4 projects, each with scope, their role, and the result) often does more work than the job history and is worth the space.
+- **Certifications:** active certs first with month/year. Expired certs either listed as "CompTIA Security+ (earned 2022)" or left off. Never with an active-looking date range. Awareness-level badges (e.g. Fortinet NSE 1-2, free intro courses) go last or get dropped once the person has real certs. Microsoft role-based certs (AZ-104, MD-102, MS-102) expire yearly unless renewed through the free online assessment, so lapsed ones are common; check the Microsoft Learn transcript for status.
 - **Education:** degree, school, graduation year. Drop the start year.
-- **Length:** one page for under ~8 years of IT experience, two pages max otherwise. Never let a third page hold one section.
+- **Length:** one page for under ~8 years of IT experience, two pages max otherwise. A Tier 3 resume with a projects section can reasonably run to two pages earlier than that. Never let a third page hold one section.
 - **Contact line:** name, city/state (or "Remote - KY" style), phone, email, LinkedIn URL. If their phone area code doesn't match where they live, the location line matters more.
 
 ### Output format
@@ -111,7 +135,8 @@ Extract the plain text the way an ATS would (e.g. `pdftotext -layout` for PDFs, 
 - Contact info in the body, not in the document header/footer
 - Standard section headings (Experience, Certifications, Education, Skills)
 - Consistent date format ("Aug 2023 - Nov 2026")
-- Standard fonts, real bullets, no hyperlinked text replacing the visible URL
+- Standard fonts, nothing under 10 pt, real bullets, no hyperlinked text replacing the visible URL
+- Black text with at most one restrained accent color. If in doubt, black and white
 
 ### Content consistency checks
 - Headline matches the bullets and the target role
@@ -121,6 +146,7 @@ Extract the plain text the way an ATS would (e.g. `pdftotext -layout` for PDFs, 
 - No duplicate bullets saying the same thing in different words
 - Every cert has an honest status
 - Job posting's must-have keywords appear where the person genuinely has them
+- Titles and dates match their LinkedIn profile. Hiring managers and hiring software pull up LinkedIn next to the resume, and mismatches look like lies even when they aren't. Also remind them that the profile photo and anything public frames how the rest gets read
 
 ### Grammar and spelling
 Check spelling, tense, subject-verb agreement, "setup" (noun) vs "set up" (verb), "login" vs "log in", stray colons or semicolons mid-sentence, and inconsistent capitalization.
@@ -130,7 +156,22 @@ Vendor and product names get misspelled constantly, and hiring managers notice. 
 - IT Glue, Hudu, Auvik, Meraki, FortiGate, SonicWall, Ubiquiti UniFi
 - Microsoft 365, Entra ID (formerly Azure AD), Intune, Exchange Online, SharePoint, Teams, Active Directory, Group Policy
 - Veeam, Cove Data Protection, Acronis, CrowdStrike Falcon, SentinelOne, Sophos, Huntress, Proofpoint, Mimecast
-- PowerShell, macOS, iOS, Windows 11, VMware Horizon, Google Workspace, Jamf, ServiceNow, Jira Service Management
+- PowerShell, macOS, iOS, Windows 11, Windows Server, VMware Horizon, Google Workspace, Jamf, ServiceNow, Jira Service Management
+- Hyper-V, VMware vSphere, ESXi, Proxmox VE, Microsoft Azure, AWS, Terraform, Ansible, Bicep, Cisco Catalyst, Aruba, pfSense, WatchGuard, Palo Alto Networks
 
 ### Report back
-Give findings ranked by impact: what will get the resume dropped before a human reads it first, then what a hiring manager will notice, then polish. Fix what you built; for someone else's resume, list the fixes and offer to apply them.
+Give findings ranked by impact: what will get the resume dropped before a human reads it first, then what a hiring manager will notice, then polish. Fix what you built; for someone else's resume, list the fixes and offer to apply them. Then suggest they have a friend read it, someone who didn't write it.
+
+## Optional: interview prep
+
+Once the resume is done, offer to prep them for the interview using the job posting and the resume they're submitting. Don't run this unless they want it.
+
+- **Every bullet is a question.** For each resume bullet, ask them to tell the story behind it out loud: what was broken, what they did, what happened. If they can't, the bullet needs to change, not the story.
+- **Explain the why.** Pick fundamentals the role depends on (DNS, DHCP, MFA, backups, group policy, whatever the posting implies) and ask them to explain why each one exists and what breaks without it, not what the acronym stands for. Coach toward explaining it the way they'd explain it to a client.
+- **Scenarios for Tier 2 and 3.** Add troubleshooting and design scenarios in place of some fundamentals: "A client's site-to-site VPN dropped after a firewall firmware update; walk me through it," "Plan a 50-user migration from on-prem file shares to SharePoint," "Tell me about an outage you caused and what you changed afterward." Coach toward a structure: what they checked first and why, what they ruled out, how they communicated with the client, and what they changed so it wouldn't happen again.
+- **"I don't know" is an answer.** Practice saying it well: say you don't know, then say how you'd find out or who you'd escalate to. Bluffing is worse than not knowing.
+- **Likes and dislikes.** Have them prepare an honest, tactful answer about what they liked and disliked at past jobs. This is a fit question, not a trap. If they hated time tracking and the employer is an MSP that lives on utilization, better they both find out now.
+- **Research.** Read the company's website, team page, and values before the interview. It also tells them how to dress.
+- **Every interaction counts.** The person scheduling the interview and whoever answers the phone are part of the interview, especially at small companies.
+- **Questions for them.** Help them build a short list worth asking, for example: how time is tracked and what utilization looks like, typical ticket volume per tech, the escalation path, how documentation is kept, what training and certification support exist, and what the first 90 days look like.
+- **Pay.** If the posting lists a range, be honest up front about whether it works. If something specific would get them over the line, it's fine to ask for it.

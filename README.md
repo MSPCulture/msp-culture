@@ -24,7 +24,7 @@ MSP Culture — public tools, templates, and resources for MSPs
 
 | Skill | What it does | Latest |
 |---|---|---|
-| [Helpdesk Resume Builder](skills/helpdesk-resume-builder/) | Claude skill for helpdesk and Tier 1-2 job seekers: builds an experience database from LinkedIn and an interview, tailors a resume to each job posting, and runs an ATS parse test and grammar check | v1.0 |
+| [Helpdesk Resume Builder](skills/helpdesk-resume-builder/) | Claude skill for MSP and IT technicians from helpdesk through Tier 3: builds an experience database from LinkedIn and an interview, tailors a resume to each job posting, runs an ATS parse test and grammar check, and optionally preps you for the interview | v1.0 |
 
 ## Fun
 
