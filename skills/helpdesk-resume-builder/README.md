@@ -24,9 +24,33 @@ Most helpdesk resumes I see aren't bad because the person lacks experience. They
 
 ## Install
 
-**Claude (web, desktop, mobile):** download this folder, zip it so `SKILL.md` sits at the top level of the zip, and upload it as a custom skill in Claude's settings.
+You don't need to know git for this. You just need the zip file.
 
-**Claude Code:** copy the folder into `~/.claude/skills/` so you end up with `~/.claude/skills/helpdesk-resume-builder/SKILL.md`.
+### Claude app (web or desktop)
+
+1. **[Download helpdesk-resume-builder.zip](https://github.com/MSPCulture/msp-culture/raw/main/skills/helpdesk-resume-builder/helpdesk-resume-builder.zip).** Don't unzip it. Claude wants the zip as-is.
+2. Open Claude on the web or desktop app and go to **Settings**, then find the **Skills** section. If you can't find it, [Anthropic's help article](https://support.claude.com/en/articles/12512180-using-skills-in-claude) has the current location.
+3. Click **Upload skill** (it may be a **+** button) and pick the zip you downloaded.
+4. Make sure the skill is turned on. Skills also need code execution turned on in the same settings area.
+5. Start a new chat and ask for help with your resume. That's it.
+
+Custom skills need a paid Claude plan (Pro, Max, Team, or Enterprise).
+
+### Claude Code
+
+Download the same zip and unzip it into your skills folder, so you end up with `~/.claude/skills/helpdesk-resume-builder/SKILL.md`.
+
+### Updating to a new version
+
+Download the zip again from the link above (it always has the newest version), delete the old skill in Claude's settings, and upload the new one. Bring your `experience-database.md` with you; it works across versions.
+
+### Comfortable with git?
+
+Clone the repo and the skill lives in `skills/helpdesk-resume-builder/`. Run `git pull` to pick up changes.
+
+```
+git clone https://github.com/MSPCulture/msp-culture.git
+```
 
 ## Use it
 
@@ -54,7 +78,18 @@ A lot of what this skill checks for comes from a series I wrote back in 2017 abo
 
 ## Changelog
 
+- **v1.1 (November 2026):** Tier 1-3 scope, interview prep, guidance from the 2017 Working at an MSP series, and simpler install steps with a ready-made zip.
 - **v1.0 (November 2026):** First public release.
+
+## For maintainers
+
+The zip is built from `SKILL.md` and has to be rebuilt whenever `SKILL.md` changes. It must contain the folder, not just the file:
+
+```
+helpdesk-resume-builder.zip
+└── helpdesk-resume-builder/
+    └── SKILL.md
+```
 
 ## License
 
