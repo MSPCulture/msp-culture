@@ -1,0 +1,28 @@
+{
+  "name": "msp-culture",
+  "owner": {
+    "name": "MSP Culture",
+    "email": "jordan@mspculture.com"
+  },
+  "metadata": {
+    "description": "Starter Cultures by MSP Culture: installable AI workflows for MSPs and IT operators. Each one is a Claude plugin with a guided setup.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "meeting-follow-through",
+      "source": "./AI-Cookbook/recipes/001-meeting-follow-through",
+      "description": "MSP Culture Starter Culture. Every action item from your recorded meetings, captured and tracked: Plaud recordings matched to your calendar, a daily recap, and a weekly open-loops review.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "meetings",
+        "action-items",
+        "follow-up",
+        "plaud",
+        "calendar",
+        "scheduled-tasks"
+      ]
+    }
+  ]
+}

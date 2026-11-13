@@ -26,6 +26,14 @@ MSP Culture — public tools, templates, and resources for MSPs
 |---|---|---|
 | [Helpdesk Resume Builder](skills/helpdesk-resume-builder/) | Claude skill for MSP and IT technicians from helpdesk through Tier 3: builds an experience database from LinkedIn and an interview, tailors a resume to each job posting, runs an ATS parse test and grammar check, and optionally preps you for the interview | v1.1 |
 
+## AI Cookbook (Starter Cultures)
+
+Installable AI workflows for MSPs, packaged as Claude plugins with a guided setup. Add the whole set with `/plugin marketplace add MSPCulture/msp-culture`, then install the ones you want. [More in the AI Cookbook](AI-Cookbook/).
+
+| Recipe | What it does | Latest |
+|---|---|---|
+| [Meeting Follow-Through](AI-Cookbook/recipes/001-meeting-follow-through/) | Matches Plaud recordings to your calendar meetings, pulls every action item with owner and due date, and gives you a weekly review of what's still open | v1.0.0 |
+
 ## Fun
 
 | Item | What it is |
