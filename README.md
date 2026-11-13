@@ -20,12 +20,6 @@ MSP Culture — public tools, templates, and resources for MSPs
 |---|---|---|
 | [Ticket Timezone Warning](scripts/ticket-timezone-warning/) | ConnectWise PSA userscript that warns techs when a ticket contact is outside business hours or on a holiday, in the contact's own timezone. No API keys, nothing leaves the browser | v1.3.1 |
 
-## Skills
-
-| Skill | What it does | Latest |
-|---|---|---|
-| [Helpdesk Resume Builder](skills/helpdesk-resume-builder/) | Claude skill for MSP and IT technicians from helpdesk through Tier 3: builds an experience database from LinkedIn and an interview, tailors a resume to each job posting, runs an ATS parse test and grammar check, and optionally preps you for the interview | v1.1 |
-
 ## AI Cookbook (Starter Cultures)
 
 Installable AI workflows for MSPs, packaged as Claude plugins with a guided setup. Add the whole set with `/plugin marketplace add MSPCulture/msp-culture`, then install the ones you want. [More in the AI Cookbook](AI-Cookbook/).
@@ -33,6 +27,7 @@ Installable AI workflows for MSPs, packaged as Claude plugins with a guided setu
 | Recipe | What it does | Latest |
 |---|---|---|
 | [Meeting Follow-Through](AI-Cookbook/recipes/001-meeting-follow-through/) | Matches Plaud recordings to your calendar meetings, pulls every action item with owner and due date, and gives you a weekly review of what's still open | v1.0.0 |
+| [Helpdesk Resume Builder](AI-Cookbook/recipes/002-helpdesk-resume-builder/) | For MSP and IT techs from helpdesk through Tier 3: builds an experience database from LinkedIn and an interview, tailors a resume to each job posting, runs an ATS parse test and grammar check, and optionally preps you for the interview | v1.1.0 |
 
 ## Fun
 

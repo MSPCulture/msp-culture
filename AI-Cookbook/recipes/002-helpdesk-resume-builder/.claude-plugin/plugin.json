@@ -1,0 +1,21 @@
+{
+  "name": "helpdesk-resume-builder",
+  "version": "1.1.0",
+  "description": "MSP Culture Starter Culture. A tailored, ATS-safe resume for MSP and IT technician roles, Tier 1 through Tier 3: builds an experience database, tailors to each job posting, checks it like an ATS would, and preps you for the interview.",
+  "author": {
+    "name": "MSP Culture",
+    "email": "jordan@mspculture.com",
+    "url": "https://mspculture.com"
+  },
+  "homepage": "https://github.com/MSPCulture/msp-culture/tree/main/AI-Cookbook/recipes/002-helpdesk-resume-builder",
+  "repository": "https://github.com/MSPCulture/msp-culture",
+  "license": "MIT",
+  "keywords": [
+    "resume",
+    "job-search",
+    "helpdesk",
+    "ats",
+    "interview-prep",
+    "careers"
+  ]
+}
