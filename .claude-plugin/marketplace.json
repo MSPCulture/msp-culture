@@ -23,6 +23,21 @@
         "calendar",
         "scheduled-tasks"
       ]
+    },
+    {
+      "name": "helpdesk-resume-builder",
+      "source": "./AI-Cookbook/recipes/002-helpdesk-resume-builder",
+      "description": "MSP Culture Starter Culture. A tailored, ATS-safe resume for MSP and IT technician roles, Tier 1 through Tier 3: builds an experience database, tailors to each job posting, checks it like an ATS would, and preps you for the interview.",
+      "version": "1.1.0",
+      "category": "productivity",
+      "keywords": [
+        "resume",
+        "job-search",
+        "helpdesk",
+        "ats",
+        "interview-prep",
+        "careers"
+      ]
     }
   ]
 }

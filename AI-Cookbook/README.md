@@ -11,6 +11,7 @@ Most AI tips get shared as a prompt in a post. You save it, tweak it, lose it, a
 | # | Recipe | What you get | Needs |
 |---|---|---|---|
 | 001 | [Meeting Follow-Through](recipes/001-meeting-follow-through/) | Recordings matched to meetings, action items pulled, weekly open loops | Plaud, M365 or Google Calendar |
+| 002 | [Helpdesk Resume Builder](recipes/002-helpdesk-resume-builder/) | A resume tailored to each job posting, an ATS and grammar check, and optional interview prep, for Tier 1-3 techs | Nothing beyond Claude; also installs as a plain skill zip |
 
 New recipes land about every two weeks. Watch the [msp-culture repo](https://github.com/MSPCulture/msp-culture) to get them.
 
@@ -21,14 +22,14 @@ New recipes land about every two weeks. Watch the [msp-culture repo](https://git
 /plugin install <recipe-name>@msp-culture
 ```
 
-Then run `/setup`. Every recipe has one.
+Then run `/setup` if the recipe has one. Recipes that need no connectors or schedules, like the resume builder, skip it.
 
 Not on a plugin-capable setup? Every recipe's `skills/` folder is plain Markdown. Read it, copy the logic, and adapt it to whatever you use.
 
 ## How every recipe is built
 
 - **One job per skill**, so you can also run each step by hand
-- **A guided `/setup`** that checks your connectors and creates any scheduled tasks
+- **A guided `/setup`** whenever a recipe needs connectors or scheduled tasks
 - **A recipe card** with honest setup time, data flow, known limits, and how you'd know it broke
 - **Read-first by default.** Anything that sends, changes, or deletes is called out on the card
 
