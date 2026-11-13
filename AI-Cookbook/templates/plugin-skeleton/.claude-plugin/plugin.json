@@ -1,0 +1,14 @@
+{
+  "name": "recipe-name",
+  "version": "1.0.0",
+  "description": "One sentence: what it does and what you get.",
+  "author": {
+    "name": "MSP Culture",
+    "email": "jordan@mspculture.com",
+    "url": "https://mspculture.com"
+  },
+  "homepage": "https://github.com/MSPCulture/msp-culture/tree/main/AI-Cookbook/recipes/NNN-recipe-name",
+  "repository": "https://github.com/MSPCulture/msp-culture",
+  "license": "MIT",
+  "keywords": []
+}

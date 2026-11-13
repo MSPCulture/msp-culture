@@ -1,0 +1,21 @@
+{
+  "name": "meeting-follow-through",
+  "version": "1.0.0",
+  "description": "MSP Culture Starter Culture. Every action item from your recorded meetings, captured and tracked: Plaud recordings matched to your calendar, a daily recap, and a weekly open-loops review.",
+  "author": {
+    "name": "MSP Culture",
+    "email": "jordan@mspculture.com",
+    "url": "https://mspculture.com"
+  },
+  "homepage": "https://github.com/MSPCulture/msp-culture/tree/main/AI-Cookbook/recipes/001-meeting-follow-through",
+  "repository": "https://github.com/MSPCulture/msp-culture",
+  "license": "MIT",
+  "keywords": [
+    "meetings",
+    "action-items",
+    "follow-up",
+    "plaud",
+    "calendar",
+    "scheduled-tasks"
+  ]
+}
